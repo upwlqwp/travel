@@ -1,0 +1,58 @@
+.header {
+  padding: 16px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+
+  &-link {
+    color: #101010;
+  }
+
+  &-link.active {
+    color: #2f70f3;
+  }
+}
+
+.nav__buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-login {
+  color: #000;
+  background-color: #fefefe;
+  border-radius: 8px;
+  border: 1px solid #b7b7b7;
+  padding: 8px 20px;
+  transition: background-color 0.3s ease-in;
+
+  &:hover {
+    background-color: #101010;
+    color: #fefefe;
+  }
+}
+
+.btn-singup {
+  color: #fefefe;
+  border-radius: 8px;
+  padding: 8px 20px;
+  background-color: #101010;
+  border: 1px solid transparent;
+  transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+  &:hover {
+    background-color: #fefefe;
+    color: #101010;
+	border-color: #101010;
+  }
+}

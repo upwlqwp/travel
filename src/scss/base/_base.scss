@@ -1,0 +1,28 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.title{
+	color: #181818;
+// font-family: Circular Std;
+font-size: 72px;
+font-weight: 700;
+line-height: normal;
+}
+
+.text{
+	color: #909090;
+font-family: Circular Std;
+font-size: 18px;
+font-style: normal;
+font-weight: 450;
+line-height: 150%; /* 27px */
+}
