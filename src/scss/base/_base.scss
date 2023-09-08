@@ -11,18 +11,40 @@ body {
 }
 
 .title{
-	color: #181818;
+	color: var(	--title-color);
 // font-family: Circular Std;
 font-size: 72px;
 font-weight: 700;
 line-height: normal;
+z-index: 9;
+margin-bottom: 20px;
+
+&--decor{
+	position: relative;
+}
+
+&--decor::after{
+	position: absolute;
+	content: '';
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+	width: 268px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url('./../img/discover/underline.svg');
+}
 }
 
 .text{
-	color: #909090;
-font-family: Circular Std;
+	color: var(--text-muted);
+
 font-size: 18px;
 font-style: normal;
 font-weight: 450;
 line-height: 150%; /* 27px */
+
+p + p {
+	margin-top: 1em;
+}
 }

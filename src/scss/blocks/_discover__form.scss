@@ -1,0 +1,23 @@
+.booking-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+max-width: 560px;
+padding: 12px 16px;
+gap: 16px;
+padding: 12px 16px;
+border-radius: 16px;
+border: 1px solid rgba(144, 144, 144, 0.30);
+background: #b7b7b756;
+}
+.booking-form__label{
+    padding: 1px;
+}
+.booking-form__submit{
+    padding: 12px;
+width: 24px;
+height: 24px;
+gap: 10px;
+border-radius: 10px;
+background: #35AFF4;
+
+}
